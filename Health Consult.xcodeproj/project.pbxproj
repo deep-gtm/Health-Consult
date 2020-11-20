@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0AD49E9A75298B60919A1C /* Pods_Health_Consult.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E049128F7E6BCD2ECC69CA99 /* Pods_Health_Consult.framework */; };
+		A6168805253402F500C6C37D /* BMICalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6168804253402F500C6C37D /* BMICalculatorViewController.swift */; };
+		A61688072534035900C6C37D /* BMICalculatorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61688062534035900C6C37D /* BMICalculatorResultViewController.swift */; };
+		A61688092534127400C6C37D /* BMICalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61688082534127400C6C37D /* BMICalculatorBrain.swift */; };
+		A616880B25343FBF00C6C37D /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616880A25343FBF00C6C37D /* BMI.swift */; };
+		A616883A2534A29900C6C37D /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61688382534A29900C6C37D /* myCell.swift */; };
+		A616883B2534A29900C6C37D /* myCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61688392534A29900C6C37D /* myCell.xib */; };
+		A616883D25355C1300C6C37D /* UserScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616883C25355C1300C6C37D /* UserScreenData.swift */; };
+		A616883F2535655100C6C37D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616883E2535655100C6C37D /* ListViewController.swift */; };
+		A616884125356B2C00C6C37D /* ListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616884025356B2C00C6C37D /* ListViewData.swift */; };
+		A616884425359A2B00C6C37D /* FirstAidMythTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616884225359A2B00C6C37D /* FirstAidMythTableCell.swift */; };
+		A616884525359A2B00C6C37D /* FirstAidMythTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A616884325359A2B00C6C37D /* FirstAidMythTableCell.xib */; };
+		A616884725359CD200C6C37D /* FirstAidMythViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616884625359CD200C6C37D /* FirstAidMythViewController.swift */; };
+		A61688492535AE7400C6C37D /* FirstAidMythScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61688482535AE7400C6C37D /* FirstAidMythScreenData.swift */; };
+		A63913942532DBB2005A88C7 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63913932532DBB2005A88C7 /* OptionsViewController.swift */; };
+		A68EFE8B25586A7500057BE2 /* OptionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68EFE8A25586A7500057BE2 /* OptionInfoViewController.swift */; };
+		A6A4FBE52531B58B00D67E98 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4FBE42531B58B00D67E98 /* IntroViewController.swift */; };
+		A6B057B5252F862800F5CA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057B4252F862800F5CA3B /* AppDelegate.swift */; };
+		A6B057B7252F862800F5CA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057B6252F862800F5CA3B /* SceneDelegate.swift */; };
+		A6B057B9252F862800F5CA3B /* LoginRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057B8252F862800F5CA3B /* LoginRegViewController.swift */; };
+		A6B057BC252F862800F5CA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B057BA252F862800F5CA3B /* Main.storyboard */; };
+		A6B057BE252F862C00F5CA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B057BD252F862C00F5CA3B /* Assets.xcassets */; };
+		A6B057C1252F862C00F5CA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B057BF252F862C00F5CA3B /* LaunchScreen.storyboard */; };
+		A6B057C925300EE100F5CA3B /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057C825300EE100F5CA3B /* K.swift */; };
+		A6B057D22530314700F5CA3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057D12530314700F5CA3B /* LoginViewController.swift */; };
+		A6B057D42530315300F5CA3B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057D32530315300F5CA3B /* RegisterViewController.swift */; };
+		A6B057D62530524C00F5CA3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6B057D52530524C00F5CA3B /* GoogleService-Info.plist */; };
+		A6B057D825308BCE00F5CA3B /* UserScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B057D725308BCE00F5CA3B /* UserScreenViewController.swift */; };
+		A6C580412539328900C61987 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C580402539328900C61987 /* InfoViewController.swift */; };
+		A6C580432539353800C61987 /* InfoViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C580422539353800C61987 /* InfoViewData.swift */; };
+		A6C58045253936F600C61987 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C58044253936F600C61987 /* InformationCell.swift */; };
+		A6C580482539444000C61987 /* InformationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C580462539444000C61987 /* InformationViewCell.swift */; };
+		A6C580492539444000C61987 /* InformationViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C580472539444000C61987 /* InformationViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7450C97ED73AAA28C9BB29FC /* Pods-Health Consult.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health Consult.release.xcconfig"; path = "Target Support Files/Pods-Health Consult/Pods-Health Consult.release.xcconfig"; sourceTree = "<group>"; };
+		A6168804253402F500C6C37D /* BMICalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorViewController.swift; sourceTree = "<group>"; };
+		A61688062534035900C6C37D /* BMICalculatorResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorResultViewController.swift; sourceTree = "<group>"; };
+		A61688082534127400C6C37D /* BMICalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorBrain.swift; sourceTree = "<group>"; };
+		A616880A25343FBF00C6C37D /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		A61688382534A29900C6C37D /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		A61688392534A29900C6C37D /* myCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCell.xib; sourceTree = "<group>"; };
+		A616883C25355C1300C6C37D /* UserScreenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreenData.swift; sourceTree = "<group>"; };
+		A616883E2535655100C6C37D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A616884025356B2C00C6C37D /* ListViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewData.swift; sourceTree = "<group>"; };
+		A616884225359A2B00C6C37D /* FirstAidMythTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMythTableCell.swift; sourceTree = "<group>"; };
+		A616884325359A2B00C6C37D /* FirstAidMythTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstAidMythTableCell.xib; sourceTree = "<group>"; };
+		A616884625359CD200C6C37D /* FirstAidMythViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMythViewController.swift; sourceTree = "<group>"; };
+		A61688482535AE7400C6C37D /* FirstAidMythScreenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMythScreenData.swift; sourceTree = "<group>"; };
+		A63913932532DBB2005A88C7 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		A68EFE8A25586A7500057BE2 /* OptionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionInfoViewController.swift; sourceTree = "<group>"; };
+		A6A4FBE42531B58B00D67E98 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		A6B057B1252F862800F5CA3B /* Health Consult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Consult.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B057B4252F862800F5CA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6B057B6252F862800F5CA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6B057B8252F862800F5CA3B /* LoginRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegViewController.swift; sourceTree = "<group>"; };
+		A6B057BB252F862800F5CA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6B057BD252F862C00F5CA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B057C0252F862C00F5CA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6B057C2252F862C00F5CA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B057C825300EE100F5CA3B /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		A6B057D12530314700F5CA3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A6B057D32530315300F5CA3B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A6B057D52530524C00F5CA3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6B057D725308BCE00F5CA3B /* UserScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreenViewController.swift; sourceTree = "<group>"; };
+		A6C580402539328900C61987 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A6C580422539353800C61987 /* InfoViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewData.swift; sourceTree = "<group>"; };
+		A6C58044253936F600C61987 /* InformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCell.swift; sourceTree = "<group>"; };
+		A6C580462539444000C61987 /* InformationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewCell.swift; sourceTree = "<group>"; };
+		A6C580472539444000C61987 /* InformationViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewCell.xib; sourceTree = "<group>"; };
+		E049128F7E6BCD2ECC69CA99 /* Pods_Health_Consult.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_Consult.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CB95CC3B910D20403D6876 /* Pods-Health Consult.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health Consult.debug.xcconfig"; path = "Target Support Files/Pods-Health Consult/Pods-Health Consult.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B057AE252F862800F5CA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0AD49E9A75298B60919A1C /* Pods_Health_Consult.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899CFA98BA02B3759E13FCE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E049128F7E6BCD2ECC69CA99 /* Pods_Health_Consult.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B057A8252F862700F5CA3B = {
+			isa = PBXGroup;
+			children = (
+				A6B057B3252F862800F5CA3B /* Health Consult */,
+				A6B057B2252F862800F5CA3B /* Products */,
+				DBD620B9D3581C0F184C3DDE /* Pods */,
+				899CFA98BA02B3759E13FCE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B057B2252F862800F5CA3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B057B1252F862800F5CA3B /* Health Consult.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B057B3252F862800F5CA3B /* Health Consult */ = {
+			isa = PBXGroup;
+			children = (
+				A6B057B4252F862800F5CA3B /* AppDelegate.swift */,
+				A6B057B6252F862800F5CA3B /* SceneDelegate.swift */,
+				A6B057CA25301C6C00F5CA3B /* Models */,
+				A6B057CB25301C7700F5CA3B /* Views */,
+				A6B057CC25301C8E00F5CA3B /* Controllers */,
+				A6B057BD252F862C00F5CA3B /* Assets.xcassets */,
+				A6B057C2252F862C00F5CA3B /* Info.plist */,
+				A6B057D52530524C00F5CA3B /* GoogleService-Info.plist */,
+			);
+			path = "Health Consult";
+			sourceTree = "<group>";
+		};
+		A6B057CA25301C6C00F5CA3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6B057C825300EE100F5CA3B /* K.swift */,
+				A61688082534127400C6C37D /* BMICalculatorBrain.swift */,
+				A616880A25343FBF00C6C37D /* BMI.swift */,
+				A616883C25355C1300C6C37D /* UserScreenData.swift */,
+				A616884025356B2C00C6C37D /* ListViewData.swift */,
+				A61688482535AE7400C6C37D /* FirstAidMythScreenData.swift */,
+				A6C580422539353800C61987 /* InfoViewData.swift */,
+				A6C58044253936F600C61987 /* InformationCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6B057CB25301C7700F5CA3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6B057BF252F862C00F5CA3B /* LaunchScreen.storyboard */,
+				A6B057BA252F862800F5CA3B /* Main.storyboard */,
+				A61688392534A29900C6C37D /* myCell.xib */,
+				A616884325359A2B00C6C37D /* FirstAidMythTableCell.xib */,
+				A6C580472539444000C61987 /* InformationViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6B057CC25301C8E00F5CA3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6B057B8252F862800F5CA3B /* LoginRegViewController.swift */,
+				A6B057D12530314700F5CA3B /* LoginViewController.swift */,
+				A6B057D32530315300F5CA3B /* RegisterViewController.swift */,
+				A6B057D725308BCE00F5CA3B /* UserScreenViewController.swift */,
+				A6A4FBE42531B58B00D67E98 /* IntroViewController.swift */,
+				A63913932532DBB2005A88C7 /* OptionsViewController.swift */,
+				A6168804253402F500C6C37D /* BMICalculatorViewController.swift */,
+				A61688062534035900C6C37D /* BMICalculatorResultViewController.swift */,
+				A61688382534A29900C6C37D /* myCell.swift */,
+				A616883E2535655100C6C37D /* ListViewController.swift */,
+				A616884625359CD200C6C37D /* FirstAidMythViewController.swift */,
+				A6C580402539328900C61987 /* InfoViewController.swift */,
+				A616884225359A2B00C6C37D /* FirstAidMythTableCell.swift */,
+				A6C580462539444000C61987 /* InformationViewCell.swift */,
+				A68EFE8A25586A7500057BE2 /* OptionInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBD620B9D3581C0F184C3DDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0CB95CC3B910D20403D6876 /* Pods-Health Consult.debug.xcconfig */,
+				7450C97ED73AAA28C9BB29FC /* Pods-Health Consult.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B057B0252F862800F5CA3B /* Health Consult */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B057C5252F862C00F5CA3B /* Build configuration list for PBXNativeTarget "Health Consult" */;
+			buildPhases = (
+				C973B861B84E1642DE655051 /* [CP] Check Pods Manifest.lock */,
+				A6B057AD252F862800F5CA3B /* Sources */,
+				A6B057AE252F862800F5CA3B /* Frameworks */,
+				A6B057AF252F862800F5CA3B /* Resources */,
+				CE02470727135D4AEE486AAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health Consult";
+			productName = "Health Consult";
+			productReference = A6B057B1252F862800F5CA3B /* Health Consult.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B057A9252F862700F5CA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Deepanshu Gautam";
+				TargetAttributes = {
+					A6B057B0252F862800F5CA3B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = A6B057AC252F862700F5CA3B /* Build configuration list for PBXProject "Health Consult" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6B057A8252F862700F5CA3B;
+			productRefGroup = A6B057B2252F862800F5CA3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B057B0252F862800F5CA3B /* Health Consult */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B057AF252F862800F5CA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B057C1252F862C00F5CA3B /* LaunchScreen.storyboard in Resources */,
+				A616883B2534A29900C6C37D /* myCell.xib in Resources */,
+				A6B057D62530524C00F5CA3B /* GoogleService-Info.plist in Resources */,
+				A6B057BE252F862C00F5CA3B /* Assets.xcassets in Resources */,
+				A616884525359A2B00C6C37D /* FirstAidMythTableCell.xib in Resources */,
+				A6B057BC252F862800F5CA3B /* Main.storyboard in Resources */,
+				A6C580492539444000C61987 /* InformationViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C973B861B84E1642DE655051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health Consult-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE02470727135D4AEE486AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health Consult/Pods-Health Consult-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health Consult/Pods-Health Consult-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Health Consult/Pods-Health Consult-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B057AD252F862800F5CA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B057B9252F862800F5CA3B /* LoginRegViewController.swift in Sources */,
+				A61688092534127400C6C37D /* BMICalculatorBrain.swift in Sources */,
+				A6168805253402F500C6C37D /* BMICalculatorViewController.swift in Sources */,
+				A6B057D825308BCE00F5CA3B /* UserScreenViewController.swift in Sources */,
+				A6C580432539353800C61987 /* InfoViewData.swift in Sources */,
+				A6B057C925300EE100F5CA3B /* K.swift in Sources */,
+				A616883A2534A29900C6C37D /* myCell.swift in Sources */,
+				A61688072534035900C6C37D /* BMICalculatorResultViewController.swift in Sources */,
+				A63913942532DBB2005A88C7 /* OptionsViewController.swift in Sources */,
+				A6B057B5252F862800F5CA3B /* AppDelegate.swift in Sources */,
+				A6C58045253936F600C61987 /* InformationCell.swift in Sources */,
+				A61688492535AE7400C6C37D /* FirstAidMythScreenData.swift in Sources */,
+				A6B057D42530315300F5CA3B /* RegisterViewController.swift in Sources */,
+				A6C580482539444000C61987 /* InformationViewCell.swift in Sources */,
+				A6B057D22530314700F5CA3B /* LoginViewController.swift in Sources */,
+				A6B057B7252F862800F5CA3B /* SceneDelegate.swift in Sources */,
+				A616884125356B2C00C6C37D /* ListViewData.swift in Sources */,
+				A68EFE8B25586A7500057BE2 /* OptionInfoViewController.swift in Sources */,
+				A6A4FBE52531B58B00D67E98 /* IntroViewController.swift in Sources */,
+				A616883D25355C1300C6C37D /* UserScreenData.swift in Sources */,
+				A616884725359CD200C6C37D /* FirstAidMythViewController.swift in Sources */,
+				A616883F2535655100C6C37D /* ListViewController.swift in Sources */,
+				A616884425359A2B00C6C37D /* FirstAidMythTableCell.swift in Sources */,
+				A616880B25343FBF00C6C37D /* BMI.swift in Sources */,
+				A6C580412539328900C61987 /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B057BA252F862800F5CA3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B057BB252F862800F5CA3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B057BF252F862C00F5CA3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B057C0252F862C00F5CA3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B057C3252F862C00F5CA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6B057C4252F862C00F5CA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B057C6252F862C00F5CA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CB95CC3B910D20403D6876 /* Pods-Health Consult.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health Consult/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepanshugautam.Health-Consult";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B057C7252F862C00F5CA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7450C97ED73AAA28C9BB29FC /* Pods-Health Consult.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health Consult/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepanshugautam.Health-Consult";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B057AC252F862700F5CA3B /* Build configuration list for PBXProject "Health Consult" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B057C3252F862C00F5CA3B /* Debug */,
+				A6B057C4252F862C00F5CA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B057C5252F862C00F5CA3B /* Build configuration list for PBXNativeTarget "Health Consult" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B057C6252F862C00F5CA3B /* Debug */,
+				A6B057C7252F862C00F5CA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B057A9252F862700F5CA3B /* Project object */;
+}
